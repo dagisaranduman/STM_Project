@@ -21,6 +21,7 @@ public class Main {
         System.out.println(" User create successful!");
         /**
          * id=3 (manuel olarak girdiğimiz) olanları sorgu ile getiriyor
+         * Fetches queries where id is equal to 3
          */
         DBObject query = BasicDBObjectBuilder.start().add("_id", user.getId()).get();
 
