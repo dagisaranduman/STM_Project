@@ -64,7 +64,7 @@ public class Main {
     }
 
     /**
-     * creating user with its id-name-isEmployee-job_role
+     * creating user with its id-name-Employee-role
      * @return user
      */
     private static User createUser() {
